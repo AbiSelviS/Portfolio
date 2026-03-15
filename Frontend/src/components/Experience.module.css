@@ -57,8 +57,11 @@
     color:white;
     border-radius:5px;
     font-size: 15px;
-    text-decoration:none;
     
+    
+}
+.but a{
+    text-decoration:none;
 }
 
 .internshipcard{
