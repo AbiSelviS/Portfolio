@@ -17,21 +17,21 @@ const projectData = [
     image: login,
     desc: "Developed a responsive native website using HTML, CSS and JavaScript with a clean and user-friendly interface.",
     live: "https://native-project-seven.vercel.app/",
-    github: "https://github.com/yourname/tourism-project"
+
   },
   {
     title: "Portfolio Website",
     image: portfolio,
     desc: "Personal portfolio website created using React, HTML and CSS to showcase my skills, education and projects.",
-    live: "https://your-live-link.com",
-    github: "https://github.com/yourname/portfolio-project"
+    live: "https://portfolio-chi-peach-3mpjbs8av3.vercel.app/",
+   
   },
   {
     title: "E-Commerce Website",
     image: todo,
     desc: "Developed a responsive E-commerce website using HTML and CSS with product layout and user-friendly design.",
     live: "https://burger-website-kappa-red.vercel.app/",
-    github: "https://github.com/yourname/ecommerce-project"
+  
   }
 ];
 
