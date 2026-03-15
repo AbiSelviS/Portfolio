@@ -23,7 +23,7 @@ const Experience = () => {
 
       <div className={Exper.about}>
         <h1>Experience</h1>
-      <a href={resumee} > <button> View My Resume</button></a> 
+      <a href={resumee} className={Exper.but} > View My Resume</a> 
       </div>
 
       <div className={Exper.experiencecontainer}>
