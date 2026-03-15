@@ -3,6 +3,22 @@
 {
   box-sizing: border-box;
 }
+.cv{
+  background-color:#f5c542;
+  color:black;
+  padding:10px 22px;
+  border:2px solid #0a0a0a;  
+  border-radius:30px;
+  font-size:16px;
+  cursor:pointer;
+  font-weight:600;
+  transition:0.3s;
+  text-decoration: none;
+  border: none;
+}
+
+
+
 body{
   width: 100%;
   overflow-x: hidden;
@@ -63,12 +79,12 @@ cursor:pointer;
 .contact{
 background:#f5c542;
 }
-
+/* 
 .cv{
  background:transparent; 
  border:2px solid #f5c542;
  color:#f5c542; 
-}
+} */
 
 .heroright{
 width:40%;
