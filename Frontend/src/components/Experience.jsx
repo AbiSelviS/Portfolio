@@ -12,9 +12,7 @@ const Experience = () => {
   return (
     <div className={Exper.exp}id="Experience" >
 
-     <div className={Exper.expbg}>
-      
-      </div>
+  
 
 
       <div className={Exper.profileimg}>
