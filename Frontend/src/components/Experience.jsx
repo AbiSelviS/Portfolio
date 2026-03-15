@@ -13,7 +13,7 @@ const Experience = () => {
     <div className={Exper.exp}id="Experience" >
 
      <div className={Exper.expbg}>
-        <button className={Exper.button1} >view more</button>
+      
       </div>
 
 
