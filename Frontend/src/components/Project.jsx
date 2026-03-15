@@ -5,8 +5,8 @@ import Projects from "./Project.module.css";
 import Button from './Button.jsx';
 
 import portfolio from "../assets/ss portfolio.png";
-import todo from "../assets/ss burger.png";
-import login from "../assets/ss-native.png";
+import ecommerce from "../assets/ss burger.png";
+import native from "../assets/ss-native.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -14,7 +14,7 @@ import "aos/dist/aos.css";
 const projectData = [
   {
     title: "Tourism Website",
-    image: login,
+    image: native,
     desc: "Developed a responsive native website using HTML, CSS and JavaScript with a clean and user-friendly interface.",
     live: "https://native-project-seven.vercel.app/",
 
@@ -28,7 +28,7 @@ const projectData = [
   },
   {
     title: "E-Commerce Website",
-    image: todo,
+    image: ecommerce,
     desc: "Developed a responsive E-commerce website using HTML and CSS with product layout and user-friendly design.",
     live: "https://burger-website-kappa-red.vercel.app/",
   
