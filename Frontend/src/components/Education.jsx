@@ -33,14 +33,14 @@ const Education = () => {
         <div className={educ.educard} data-aos="zoom-in" data-aos-delay="200">
           <h2>Higher Secondary Education</h2>
           <h3>S.N.M Hindu Vidyalaya Matric Higher Secondary School</h3>
-          <p>2019 – 2021</p>
+          <p>2019 – 2020</p>
           <p>Percentage: 85%</p>
         </div>
 
         <div className={educ.educard} data-aos="zoom-in" data-aos-delay="400">
           <h2>Secondary School (SSLC)</h2>
           <h3>S.N.M Hindu Vidyalaya Matric Higher Secondary School</h3>
-          <p>2018 – 2019</p>
+          <p>2021 – 2022</p>
           <p>Percentage: 91.6%</p>
         </div>
 
