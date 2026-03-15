@@ -11,7 +11,9 @@ import resumee from "../assets/AbiSelvi.Resume.pdf";
 const Experience = () => {
   return (
     <div className={Exper.exp}id="Experience" >
-
+     <div className={Exper.expbg}>
+        <button className={Exper.button1} >view more</button>
+      </div>
   
 
 
