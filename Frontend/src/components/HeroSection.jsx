@@ -8,6 +8,7 @@ import Hero from './HeroSection.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import AOS from "aos";
+import resume from "../assets/AbiSelvi.Resume.pdf";
 import "aos/dist/aos.css";
 
 const HeroSection = () => {
@@ -40,7 +41,7 @@ const HeroSection = () => {
         <div className={Hero.herobuttons}>
 
           {/* Download CV Button */}
-            <a href="" className={Hero.cv}>
+            <a href={resume} className={Hero.cv}>
           Download CV
           </a>
 
