@@ -4,6 +4,7 @@ import ABI from "../assets/abi1.jpeg";
 import alo from "../assets/alo.jpg";
 import infopark from "../assets/ak2.jpg";
 import orvionar from "../assets/orvionar.jpg";
+import resumee from "../assets/AbiSelvi.Resume.pdf";
 
 
 
@@ -22,7 +23,7 @@ const Experience = () => {
 
       <div className={Exper.about}>
         <h1>Experience</h1>
-        <button> View My Resume</button>
+      <a href={resumee} > <button> View My Resume</button></a> 
       </div>
 
       <div className={Exper.experiencecontainer}>
