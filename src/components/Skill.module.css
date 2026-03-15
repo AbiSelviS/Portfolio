@@ -1,0 +1,116 @@
+ .Skillsection{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    padding:40px;
+}
+
+/* card */
+.skillimage{
+    text-align:center;
+    background:#f5f5f5;
+    
+    padding:20px;
+    border-radius:10px;
+
+   
+    
+}
+
+.skillimage:hover{
+    transform:translateY(-10px);
+    transition:0.3s;
+      background:#b9cfeb;
+
+}
+
+/* image size */
+.skillimg{
+    width:80px;
+    height:80px;
+    object-fit:contain;
+    margin-bottom:15px;
+}
+.skill{
+    text-align: center;
+
+}
+
+ text 
+ .skillimage h1{
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.skillimage p{
+    font-size:14px;
+    line-height:1.6;
+} 
+
+/* Mobile: 0 – 768px */
+@media (max-width:768px){
+
+.Skillsection{
+  display:flex;
+  flex-direction:column;      /* stack skill cards vertically */
+  align-items:center;
+  gap:20px;
+  padding:20px;
+}
+
+.skillimage{
+  width:90%;                  /* card almost full width */
+  text-align:center;
+}
+
+.skillimg{
+  width:80px;                 /* smaller icon on mobile */
+  height:80px;
+  object-fit:cover;
+  margin-bottom:10px;
+}
+
+.skillimage h1{
+  font-size:20px;             /* smaller title */
+  margin-bottom:5px;
+}
+
+.skillimage p{
+  font-size:14px;             /* smaller description */
+  line-height:1.4;
+}
+}
+/* Tablet: 768px – 1024px */
+@media (min-width:768px) and (max-width:1024px) {
+  .Skillsection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 cards per row */
+    gap: 20px;
+    justify-items: center; /* center each card */
+    padding: 0 20px;
+  }
+
+  .skillimage {
+    width: 100%;      /* Let grid control the width */
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+
+  .skillimg {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+
+  }
+
+  .skillimage h1 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .skillimage p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
