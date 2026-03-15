@@ -4,18 +4,16 @@ import ABI from "../assets/abi1.jpeg";
 import alo from "../assets/alo.jpg";
 import infopark from "../assets/ak2.jpg";
 import orvionar from "../assets/orvionar.jpg";
-import resumee from "../assets/AbiSelvi.Resume.pdf";
 
 
 
 const Experience = () => {
   return (
     <div className={Exper.exp}id="Experience" >
-     <div className={Exper.expbg}>
+
+      <div className={Exper.expbg}>
         <button className={Exper.button1} >view more</button>
       </div>
-  
-
 
       <div className={Exper.profileimg}>
         <img src={ABI} alt="abi"  className={Exper.imaged}/>
@@ -23,7 +21,7 @@ const Experience = () => {
 
       <div className={Exper.about}>
         <h1>Experience</h1>
-      <a href={resumee} className={Exper.but} > View My Resume</a> 
+        <button> View My Resume</button>
       </div>
 
       <div className={Exper.experiencecontainer}>
